@@ -1,0 +1,17 @@
+h1 {
+   text-align: center;
+    color: white;
+}
+
+body { 
+    background-color: black; 
+}
+
+.button_colors{
+	font-size: 20px; 
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	width: 300px;
+	border-width: 0px;
+}

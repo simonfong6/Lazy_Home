@@ -1,0 +1,63 @@
+Automated Light Switch
+1. Ability to turn on and off from website
+2. Light sensor for automated turn on
+3. Set off time for sleep
+4. Motion detector to detect people for automated turn on
+5. Control 2 Arduinos with IR or Laser or one of each to control 2 switches
+
+ONE
+1. Install Debian and get IP address
+2. Attach monitor and keyboard to Dragon Board
+3. Set hostname and change password
+hostname: redmango
+password: YellowMangoes1
+4. Install LAMP and Vim
+5. Install Arduino
+6. Wire LEDs to light switches
+5. Change web directory so no need for sudo (Optional)
+6. Create webpage using HTML, CSS, and PHP
+7. Write Arduino code for receiving PHP input and triggering servos
+8. Wire and arrange servos
+
+TWO
+1. Wire light sensor
+2. Write Arduino code:
+If light off and light level changes from bright to dark turn on light.
+3. Write PHP for light sensor settings
+
+THREE
+1. Write PHP to set on and off time
+2. Install MongoDB
+3. Create Mlab database
+4. Store time in database
+OR
+PHP File IO
+
+FOUR
+1. Wire motion sensor
+2. Write Arduino code:
+If no motion within hour, do not turn on light
+3. Write PHP for motion settings
+
+FIVE
+1. Wire IR/Laser on Dragon Board and Arduinos
+2. Learn to write Dragon code to read/write from/to receiver/transmitter
+Most likely written in Python.
+3. Learn to write Arduino code to read/write from/to receiver/transmitter
+4. Code:
+If receive X-message, then do this
+If event, send Y-message
+
+
+Materials
+1. Dragon Board 1
+2. Dragon Board Mezznine 1
+3. Bread Board 1-2
+4. Jumper Wires 10-20
+5. Servos 3
+6. Lumosity Sensor Breakout 2(Need 1, but 2 better)
+7. Motion Sensor 1
+8. IR Transmitter 4
+9. IR Receiver 4
+10. Laser Transmitter 4
+11. Laser Receiver 4
